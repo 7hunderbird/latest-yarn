@@ -1,6 +1,10 @@
+Steps to reproduce, using the `Dockerfile` in this directory:
+
+```bash
 docker build -t my-nodejs-app .
 docker run -d -it --rm --name my-running-app my-nodejs-app
 docker exec -it my-running-app /bin/bash
+```
 
 I tried `yarn set version latest` which only installed 1.22.19
 
