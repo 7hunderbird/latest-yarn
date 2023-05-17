@@ -1,3 +1,5 @@
+- Got the idea of the node image from [here](https://github.com/nodejs/docker-node/blob/main/README.md#how-to-use-this-image)
+
 Steps to reproduce, using the `Dockerfile` in this directory:
 
 ```bash
